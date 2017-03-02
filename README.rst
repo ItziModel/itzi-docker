@@ -2,7 +2,7 @@
 Itzï
 ====
 
-This is a full environmnet for the Itzï flood model.
+This is a full environment for the Itzï flood model.
 It includes:
 
 - GRASS 7
