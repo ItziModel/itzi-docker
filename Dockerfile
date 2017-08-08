@@ -1,4 +1,4 @@
-FROM ubuntu:16.10
+FROM ubuntu:17.04
 
 ENV NC_DATASET_URL https://grass.osgeo.org/sampledata/north_carolina
 ENV NC_DATASET_FILE nc_spm_08_grass7.tar.gz
@@ -13,7 +13,7 @@ tar \
 wget
 
 RUN pip install --disable-pip-version-check --upgrade pip
-RUN pip install itzi
+RUN pip install itzi==17.8
 
 # Copy tutorial files
 COPY tutorial.* ./
