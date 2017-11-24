@@ -13,7 +13,7 @@ tar \
 wget
 
 RUN pip install --disable-pip-version-check --upgrade pip
-RUN pip install itzi==17.10
+RUN pip install itzi==17.11
 
 # Copy tutorial files
 COPY tutorial.* ./
