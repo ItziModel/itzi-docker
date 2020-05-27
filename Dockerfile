@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y \
 grass-core \
 grass-dev \
 gzip \
-python-pip \
+python3-pip \
 tar \
 wget
 
