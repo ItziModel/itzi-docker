@@ -1,6 +1,6 @@
 # Preparing the entry data for the itzi tutorial
 
-g.region -p raster=elev_lid792_1m@PERMANENT res=5 save=lidar_5m
+g.region raster=elev_lid792_1m@PERMANENT res=5
 r.resamp.interp input=elev_lid792_1m@PERMANENT output=elev_lid792_5m
 r.watershed elevation=elev_lid792_5m drainage=elev_lid792_5m_drainage
 r.water.outlet input=elev_lid792_5m_drainage output=watershed coordinates=638888,220011
